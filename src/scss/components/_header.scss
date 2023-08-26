@@ -1,0 +1,126 @@
+.header {
+  background-size: cover;
+  background: url("../../img/header_backgound.jpg") no-repeat center;
+  max-width: 1280px;
+  max-height: 776px;
+  padding-top: 17px;
+}
+
+.header__container {
+  max-width: (1280px - 62 * 2px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav__container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+  font-family: var(--public-sans);
+}
+
+.nav__item {
+  display: flex;
+  gap: 51px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--white-color);
+}
+
+.nav--login {
+  padding-right: 16px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--white-color);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 170px;
+}
+
+.title__main {
+  max-width: 535px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 3.7px;
+  color: var(--white-color);
+  font-family: var(--libre-baskerville), serif;
+}
+
+.title__secondary {
+  max-width: 546px;
+  margin-top: 29px;
+  font-family: var(--public-sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--white-color);
+  margin-bottom: 29px;
+}
+
+.title__button {
+  max-width: 208px;
+  padding: 17px 33px;
+  white-space: nowrap;
+  background-color: transparent;
+  outline: none;
+  color: var(--white-color);
+  border-radius: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  text-align: center;
+  font-family: var(--public-sans);
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.02px;
+}
+
+.trusted {
+  margin-top: 122px;
+}
+
+.trusted__title {
+  font-family: var(--public-sans);
+  color: var(--white-color);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.trusted__info {
+  display: flex;
+  margin-top: 15px;
+  gap: 32px;
+  padding-bottom: 39px;
+}
+
+.trusted__info--city {
+  display: inline-block;
+  border-top: 2px solid rgba(255, 255, 255, 0.60);
+  width: 165px;
+  font-size: 15px;
+  font-style: normal;
+  padding-top: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: var(--public-sans);
+  color: var(--white-color);
+}
